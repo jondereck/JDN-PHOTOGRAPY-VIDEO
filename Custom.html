@@ -1,0 +1,350 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Choose Services</title>
+    <link rel="stylesheet" href="style2.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/gif/png" href="img\JDN LOGO black.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=vNcinVwN3tuiOJ6TjIb6qLUed8ahOXn9YQTmZ13jxtqKyR-lPGalNP3zXqs-hIWgXFiTZ7cWYrhW0HTFG7eUMA" charset="UTF-8"></script><script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+    <script defer src="js/all.js"></script>
+     <script defer src="js/fontawesome.min.js"></script>
+
+
+
+  </head>
+  <body>
+<!-------------------NAVIGATION BAR------------------------------------>
+  <section id="nav-bar">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="img\JDN LOGO black.png" style=font-face: courier-new > PHOTOGRAPY & VIDEO</p></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          TOUR
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="index.html#aboutfilm editing.html">Film Editing</a>
+          <a class="dropdown-item" href="Film Poster.html">Film Poster</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="Event Photography.html">Event Photography</a>
+          <a class="dropdown-item" href="Portrait Photography.html">Portrait Photography</a>
+            <div class="dropdown-divider"></div>
+         
+          <a class="dropdown-item" href="Wedding.html">Wedding Diary</a> 
+        </div>
+
+       <li class="nav-item">
+        <a class="nav-link" data-scroll href="index.html#about">ABOUT US </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#services">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#team">MY TEAM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#price">PRICE RATE</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="index.html#testimonial">TESTIMONIAL</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link data-scroll" href="index.html#contact">CONTACT</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+</section>
+
+
+<!-------------------Choose------------------------------------>
+<section>
+    <div class="select-wrapper">
+      <h1>Choose Services</h1>
+
+      
+
+      
+      <span class="multi-select"></span>
+
+      
+    </div>
+    <script src="js/bundle.min.js"></script>
+    <script>
+      
+
+      var multi = new SelectPure(".multi-select", {
+        options: [
+          {
+            label: "Arial Shot = P1000",
+            value: "NY",
+          },
+          {
+            label: "Prenuptial Teaser  ",
+            value: "WA",
+          },
+          {
+            label: "3 Camera Shooter set-up",
+            value: "CA",
+          },
+          {
+            label: "2 Camera Shooter set-up",
+            value: "NJ",
+          },
+          {
+            label: "",
+            value: "NC",
+          },
+        ],
+        value: ["NY", "CA"],
+        multiple: true,
+        icon: "fa fa-times",
+        onChange: value => { console.log(value); },
+      });
+
+
+
+    
+    </script>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+
+      .select-wrapper {
+        margin: auto;
+        max-width: 600px;
+        width: calc(100% - 40px);
+      }
+      h1
+{
+  text-align:center;
+  color:#fff !important;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+h1::after
+{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+
+      .select-pure__select {
+        align-items: center;
+        background: #1a1f24;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+        box-sizing: border-box;
+        color: #363b3e;
+        cursor: pointer;
+        display: flex;
+        font-size: 16px;
+        font-weight: 500;
+        justify-content: left;
+        min-height: 44px;
+        padding: 5px 10px;
+        position: relative;
+        transition: 0.2s;
+        width: 100%;
+      }
+
+      .select-pure__options {
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+        box-sizing: border-box;
+        color: #363b3e;
+        display: none;
+        left: 0;
+        max-height: 221px;
+        overflow-y: scroll;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        z-index: 5;
+      }
+
+      .select-pure__select--opened .select-pure__options {
+        display: block;
+      }
+
+      .select-pure__option {
+        background:  #f1f1f1;
+        border-bottom: 1px solid #e4e4e4;
+        box-sizing: border-box;
+        height: 44px;
+        line-height: 25px;
+        padding: 10px;
+      }
+
+      .select-pure__option--selected {
+        color: #e4e4e4;
+        cursor: initial;
+        pointer-events: none;
+      }
+
+      .select-pure__option--hidden {
+        display: none;
+      }
+
+      .select-pure__selected-label {
+        background: #5e6264;
+        border-radius: 4px;
+        color: #fff;
+       
+        cursor: initial;
+        display: inline-block;
+        margin: 5px 10px 5px 0;
+        padding: 3px 7px;
+      }
+
+      .select-pure__selected-label:last-of-type {
+        margin-right: 0;
+      }
+
+      .select-pure__selected-label i {
+        cursor: pointer;
+        display: inline-block;
+        margin-left: 7px;
+      }
+
+      .select-pure__selected-label i:hover {
+        color: #e4e4e4;
+      }
+
+      .select-pure__autocomplete {
+        background: #f9f9f8;
+        border-bottom: 1px solid #e4e4e4;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        box-sizing: border-box;
+        font-size: 16px;
+        outline: none;
+        padding: 10px;
+        width: 100%;
+      }
+    </style>
+  </body>
+</html>
+
+
+
+<div id="booking" class="section">
+    <div class="section-center">
+      <div class="container">
+        <div class="row">
+          <div class="booking-form">
+            <div class="form-header">
+              
+            </div>
+            <form>
+              <div class="form-group">
+                <div class="form-checkbox">
+                  <label for="roundtrip">
+                    
+                </div>
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="text">
+                <span class="form-label">Name</span>
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="number">
+    
+                <span class="form-label">Contact</span>
+              </div>
+
+              <div class="form-group">
+                <input class="form-control" type="text">
+                <span class="form-label">Address</span>
+              </div>
+
+              <div class="form-group">
+                <input class="form-control" type="date">
+                <span class="form-label">When</span>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <select class="form-control">
+                       <option value="1">Cinematic Photography</option>
+                         <option value="2">Event Photography</option>
+                          <option value="3">Fashion/Model Photograpgy</option>
+                         <option value="4">Videography</option>
+                         <option value="4">Wedding Diary</option>
+                    </select>
+                    <span class="select-arrow"></span>
+                    <span class="form-label">Photography Type</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <select class="form-control">
+                       <option value="1">Cash</option>
+                         <option value="2">Personal Cheque</option>
+                          <option value="3">Debit Card</option>
+                          <option value="4">Credit Card</option>
+                    </select>
+                    <span class="select-arrow"></span>
+                    <span class="form-label">Mode of Payment</span>
+                  </div>
+                </div>
+
+                
+              <div class="form-btn">
+              
+               <form>
+         <button class="submit-btn" type="submit" formaction="Thanks.html">Send Request</button>
+      </form>
+
+          
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script>
+    $('.form-control').each(function () {
+      floatedLabel($(this));
+    });
+
+    $('.form-control').on('input', function () {
+      floatedLabel($(this));
+    });
+
+    function floatedLabel(input) {
+      var $field = input.closest('.form-group');
+      if (input.val()) {
+        $field.addClass('input-not-empty');
+      } else {
+        $field.removeClass('input-not-empty');
+      }
+    }
+  </script>
